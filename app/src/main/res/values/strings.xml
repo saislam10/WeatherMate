@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherMate</string>
+    <string name="add_city">Add City</string>
+    <string name="enter_city_name">Enter City Name</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="google_maps_key">AIzaSyAlkRaBpcrr64mEDPUmfgbfyJidVkXJWiA</string>
+    <string name="delete_all">Delete All</string>
+    <string name="map">Take me to map</string>
+    <string name="no_city_added">You haven\'t added any cities yet. Click on the + button below to add a city, or the map button to view your city\'s weather!</string>
+    <!--    <string name="default_web_client_id">1022522332484-jbusgf9lu0bjhpfvblh11f3eodsf4bcg.apps.googleusercontent.com</string>-->
+</resources>
