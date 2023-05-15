@@ -44,5 +44,3 @@ WeatherMate is licensed under the [MIT License](https://opensource.org/licenses/
 For any inquiries or feedback, please contact [saislam@davidson.edu](mailto:saislam@davidson.edu), [taawal@davidson.edu](taawal@davidson.edu), or [miremezo@davidson.edu](mailto:miremezo@davidson.edu).
 
 ---
-
-Feel free to customize this README file based on your specific app and requirements.
