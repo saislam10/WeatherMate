@@ -47,13 +47,14 @@ class WeatherDetailsViewModel(private val apiService: WeatherApiService) : ViewM
                 val allForecasts = response.body()?.list
                 val noonForecasts = allForecasts?.filter {
                     val dateTime = LocalDateTime.parse(it.dt_txt, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
-                    dateTime.hour == 12 && !dateTime.toLocalDate().isEqual(LocalDate.now())
+                    dateTime.hour == 12
                 }
                 forecastResult.value = noonForecasts?.map {
                     ForecastData(
                         dt_txt = it.dt_txt,
                         main = ForecastData.Main(it.main.temp),
-                        weather = listOf(ForecastData.Weather(it.weather[0].description))
+                        weather = listOf(ForecastData.Weather(it.weather[0].description)),
+
                     )
                 }
             }

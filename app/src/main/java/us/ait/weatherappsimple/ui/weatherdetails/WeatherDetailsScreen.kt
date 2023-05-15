@@ -39,6 +39,8 @@ import us.ait.weatherappsimple.data.RetrofitInstance
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.livedata.observeAsState
+import androidx.compose.ui.graphics.Color
+import us.ait.weatherappsimple.R
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 import java.time.format.TextStyle
@@ -54,6 +56,8 @@ fun WeatherDetailsScreen(
 ) {
     val weatherResult by viewModel.weatherResult
     val forecastResult by viewModel.forecastResult
+
+    println(weatherResult)
 
     LaunchedEffect(userCity) {
         userCity?.let {
@@ -96,6 +100,7 @@ fun WeatherDetailsScreen(
                         style = MaterialTheme.typography.h5.copy(fontWeight = FontWeight.Bold),
                         modifier = Modifier.padding(bottom = 16.dp)
                     )
+                    println("https://openweathermap.org/img/w/${weatherResult!!.weather[0].icon}.png")
                     Image(
                         painter = rememberImagePainter(
                             data = "https://openweathermap.org/img/w/${weatherResult!!.weather[0].icon}.png"
