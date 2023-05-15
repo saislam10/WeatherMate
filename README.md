@@ -5,7 +5,7 @@ WeatherMate is a simple weather application that allows users to check the weath
 ## Features
 
 - **City List**: Users can add multiple cities to their city list and easily switch between them to view the weather details.
-- **Weather Details**: Users can view detailed weather information for each city, including the current temperature, weather description, humidity, and wind speed.
+- **Weather Details**: Users can view detailed weather information for each city, including the current temperature, weather description, humidity, and wind speed. Also can see weather details for the next three days (midday).
 - **User Authentication**: The app supports user authentication using Google Sign-In, allowing users to sign in with their Google accounts and access their saved city list across devices.
 - **Location-based Weather**: The app automatically detects the user's current location and displays the weather details for that location. Users can also manually add cities to their list.
 
@@ -41,7 +41,7 @@ WeatherMate is licensed under the [MIT License](https://opensource.org/licenses/
 
 ## Contact
 
-For any inquiries or feedback, please contact [saislam@davidson.edu](mailto:saislam@davidson.edu).
+For any inquiries or feedback, please contact [saislam@davidson.edu](mailto:saislam@davidson.edu), [taawal@davidson.edu](taawal@davidson.edu), or [miremezo@davidson.edu](mailto:miremezo@davidson.edu).
 
 ---
 
