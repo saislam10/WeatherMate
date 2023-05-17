@@ -56,7 +56,7 @@ class WeatherDetailsViewModel(private val apiService: WeatherApiService) : ViewM
                 val allForecasts = response.body()?.list
                 val noonForecasts = allForecasts?.filter {
                     val dateTime = LocalDateTime.parse(it.dt_txt, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
-                    dateTime.hour == 12
+                    dateTime.hour == 12 && !dateTime.toLocalDate().isEqual(LocalDate.now())
                 }
                 forecastResult.value = noonForecasts?.map {
                     ForecastData(
