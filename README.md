@@ -26,6 +26,14 @@ To run the app on your local machine, follow these steps:
 4. Obtain an API key from OpenWeatherMap API and add it to the project.
 5. Build and run the app on an Android device or emulator.
 
+## Video Demo
+
+
+
+https://github.com/saislam10/WeatherMate/assets/100876099/22d2f2c1-bb50-4723-bc05-a9aefaf629e3
+
+
+
 ## License
 
 WeatherMate is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
